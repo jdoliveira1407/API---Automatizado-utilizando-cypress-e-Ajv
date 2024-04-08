@@ -4,6 +4,7 @@
 ## Introdução
 
 Este é um repositório que contém testes automatizados para a aplicação API. Os testes são escritos utilizando o framework de teste end-to-end Cypress.
+É um CRUD da API https://jsonplaceholder.typicode.com/users onde é validado os http status code 200 e o schema json.
 
 ## Pré-requisitos
 
@@ -20,7 +21,8 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 1. Clone este repositório para sua máquina local:
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/jdoliveira1407/API---Automatizado-utilizando-cypress-e-Ajv.git
+    
     ```
 
 2. Navegue até o diretório do projeto:
@@ -34,6 +36,8 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 Para abrir a interface gráfica do Cypress e executar os testes interativamente, execute:
 
 npm cypress open
+
+
 
 ## Configurações
 
