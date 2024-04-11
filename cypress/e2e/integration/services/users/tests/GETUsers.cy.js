@@ -1,8 +1,5 @@
 import * as GETUsers from '../requests/GETUsers.request'
 
-const Ajv = require("ajv")
-const ajv = new Ajv({ allErrors: true, verbose: true }) // options can be passed, e.g. {allErrors: true}
-
 
 describe('GET Users', () => {
     it('Listar todos os usuários', () => {
